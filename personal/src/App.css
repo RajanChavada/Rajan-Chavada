@@ -1,8 +1,13 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 .App-container { 
   background-color: #323232;
   color: white; 
 }
-
 
 
 
