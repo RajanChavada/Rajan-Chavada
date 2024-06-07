@@ -1,0 +1,23 @@
+.header-proj { 
+    font-weight: 700;
+    font-size: 3em;
+    padding: 10px;
+    margin-bottom: 50px;
+    color: #112d32;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+.card {
+    flex: 0 0 calc(33.333% - 20px); /* Three cards per row, accounting for the gap */
+    max-width: calc(33.333% - 20px);
+    margin-bottom: 20px; /* Space between rows */
+    opacity: 0.9;
+    border-radius: 20px;
+    background-color: #112d32;
+}
