@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rajan-chavada/static/css/main.71363b4b.css",
+    "main.js": "/rajan-chavada/static/js/main.400b2c53.js",
+    "static/media/headshot.JPG": "/rajan-chavada/static/media/headshot.b6727c0c414fa58b5b37.JPG",
+    "static/media/background.png": "/rajan-chavada/static/media/background.1b4e5bbbe927cfd19951.png",
+    "static/media/objects4.png": "/rajan-chavada/static/media/objects4.1d063c452898a066eb41.png",
+    "static/media/rbc.jpeg": "/rajan-chavada/static/media/rbc.c2804ff16c8ff80e1335.jpeg",
+    "index.html": "/rajan-chavada/index.html",
+    "main.71363b4b.css.map": "/rajan-chavada/static/css/main.71363b4b.css.map",
+    "main.400b2c53.js.map": "/rajan-chavada/static/js/main.400b2c53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71363b4b.css",
+    "static/js/main.400b2c53.js"
+  ]
+}
