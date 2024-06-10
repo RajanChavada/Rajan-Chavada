@@ -2,7 +2,6 @@
   "name": "personal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rajanchavada.github.io/rajan-chavada",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
