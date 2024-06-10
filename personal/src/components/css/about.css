@@ -64,7 +64,7 @@
 }
 
 .tech:hover p {
-    color: #4f4a41;
+    color: #f9f8eb;
 }
 
 .aboutme, .technologies {
@@ -84,3 +84,6 @@
   }
   
 
+.header2 { 
+    color: #88bdbc; 
+}
