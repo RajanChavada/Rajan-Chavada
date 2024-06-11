@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import "./css/footer.css"
 
 export default function Footer() {
     return (
@@ -12,23 +13,23 @@ export default function Footer() {
                 </span>
                 <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
                     <li className="me-4 md:me-6">
-                        <a href="#" className="hover:underline">
-                            <FontAwesomeIcon icon={faGithub} size="2x" style={{ color: '#112d32' }} />
+                        <a href="https://github.com/RajanChavada" target="_blank" className="icon hover:underline">
+                            <FontAwesomeIcon icon={faGithub} size="2x" />
                         </a>
                     </li>
                     <li className="me-4 md:me-6">
-                        <a href="#" className="hover:underline">
-                            <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: '#112d32' }} />
+                        <a href="https://www.linkedin.com/in/rajan-chavada/" target="_blank" className="icon">
+                            <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
                         </a>
                     </li>
                     <li className="me-4 md:me-6">
-                        <a href="#" className="hover:underline">
-                            <FontAwesomeIcon icon={faEnvelope} size="2x" style={{ color: '#112d32' }} />
+                        <a href="mailto:rajanchavada111@gmail.com" className="icon hover:underline">
+                            <FontAwesomeIcon icon={faEnvelope} size="2x" />
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="hover:underline">
-                            <FontAwesomeIcon icon={faReact} size="2x" style={{ color: '#112d32' }} />
+                        <a href="#" className="icon hover:underline">
+                            <FontAwesomeIcon icon={faReact} size="2x" />
                         </a>
                     </li>
                 </ul>

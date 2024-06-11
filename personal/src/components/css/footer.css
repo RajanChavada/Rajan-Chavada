@@ -1,0 +1,8 @@
+.icon {
+    color: #112d32;
+    transition: color 0.3s ease;
+}
+
+.icon:hover {
+    color:#254e58;
+}
