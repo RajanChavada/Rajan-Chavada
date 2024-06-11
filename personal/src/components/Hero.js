@@ -2,7 +2,7 @@ import React from 'react';
 import './css/hero.css';
 import Typewriter from 'typewriter-effect';
 import backgroundImage from "./images/background.png";
-import objects from './images/objects4.png';
+
 
 export default function Hero() {
     return (
