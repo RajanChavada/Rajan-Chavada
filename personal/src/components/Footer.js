@@ -1,10 +1,18 @@
-import React from 'react';
+import {React, useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import Modal from "./Modal"
 import "./css/footer.css"
 
 export default function Footer() {
+    const [isModalopen, setModalOpen] = useState(false); 
+
+    const closeModal = () => setModalOpen(false); 
+    function handleModal() { 
+        setModalOpen(true)
+        console.log("Clicked");
+    }
     return (
         <footer className="shadow w-full" style={{ backgroundColor: '#f9f8eb' }}>
             <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
@@ -28,9 +36,10 @@ export default function Footer() {
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="icon hover:underline">
+                        <button onClick={handleModal}>
                             <FontAwesomeIcon icon={faReact} size="2x" />
-                        </a>
+                        </button>
+                        <Modal isOpen={isModalopen} onClose={closeModal}/>
                     </li>
                 </ul>
             </div>
