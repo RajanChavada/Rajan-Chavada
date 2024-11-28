@@ -2,7 +2,7 @@ import { React, useState, useRef, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faPython, faCss3Alt } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faBrain } from "@fortawesome/free-solid-svg-icons";
-import headshot from "./images/headshot.JPG";
+import headshot from "./images/headshot.jpeg";
 import './css/about.css';
 
 export default function About() {
